@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-06-03T05:28:58.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" version="18.0.7" etag="ZdV6m41mxzNvQHX8ZuDg" type="github"><diagram id="Pk1WaKfEVBQrjy4hXmLU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-03T05:38:37.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="VEz7tOZcI4n3tyKOKC3M" version="18.0.7" type="github">
+  <diagram id="Pk1WaKfEVBQrjy4hXmLU" name="Page-1">
+    <mxGraphModel dx="1148" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WP3P4KRO0f5SoItJVGP2-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WP3P4KRO0f5SoItJVGP2-2" value="Timer, 外部中断，LCD，蜂鸣器，DHT11，串口初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WP3P4KRO0f5SoItJVGP2-3" value="使能总中断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WP3P4KRO0f5SoItJVGP2-4" value="开机动画" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WP3P4KRO0f5SoItJVGP2-5" value="登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WP3P4KRO0f5SoItJVGP2-6" value="是否登录成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WP3P4KRO0f5SoItJVGP2-7" value="展示用户信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WP3P4KRO0f5SoItJVGP2-8" value="同步时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WP3P4KRO0f5SoItJVGP2-9" value="sync_flag" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WP3P4KRO0f5SoItJVGP2-10" value="同步时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WP3P4KRO0f5SoItJVGP2-11" value="tick_flag" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WP3P4KRO0f5SoItJVGP2-12" value="更新时分秒，LCD显示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="1108" width="145" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="WP3P4KRO0f5SoItJVGP2-13" value="是否整点" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WP3P4KRO0f5SoItJVGP2-14" value="报时" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WP3P4KRO0f5SoItJVGP2-15" value="temp_humidity_flag" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="1400" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WP3P4KRO0f5SoItJVGP2-16" value="获取温湿度，LCD显示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="1510" width="145" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
