@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T01:59:39.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="-swXRz5jQwmmhI0JI7yW" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T02:01:08.590Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="JozQIQnZWTwpm2mzuKto" version="18.2.1" type="github">
   <diagram id="yNJneGFGbLCoxV5wcimx" name="Page-1">
     <mxGraphModel dx="1148" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,10 +14,10 @@
           <mxGeometry x="320" y="504.5" width="175" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NTKXwZcAzXdThbgoCDp0-4" value="连续五次获取ADC数据，并取平均值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="620" width="180" height="60" as="geometry" />
+          <mxGeometry x="317.5" y="620" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NTKXwZcAzXdThbgoCDp0-5" value="计算对应的电阻值、查表获得当前环境温度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="720" width="180" height="60" as="geometry" />
+          <mxGeometry x="317.5" y="720" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NTKXwZcAzXdThbgoCDp0-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NTKXwZcAzXdThbgoCDp0-1" target="NTKXwZcAzXdThbgoCDp0-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -53,6 +53,23 @@
         <mxCell id="NTKXwZcAzXdThbgoCDp0-12" value="N" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="NTKXwZcAzXdThbgoCDp0-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="55" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTKXwZcAzXdThbgoCDp0-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NTKXwZcAzXdThbgoCDp0-4" target="NTKXwZcAzXdThbgoCDp0-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="640" as="sourcePoint" />
+            <mxPoint x="440" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTKXwZcAzXdThbgoCDp0-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NTKXwZcAzXdThbgoCDp0-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="640" as="sourcePoint" />
+            <mxPoint x="410" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="408" y="860" />
+              <mxPoint x="240" y="860" />
+              <mxPoint x="240" y="480" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
