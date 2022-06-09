@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T01:54:52.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="pnVejij9b7Pi7LHPniMs" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T01:57:08.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="tyjq4gjOH5DMDOkryDLr" version="18.2.1" type="github">
   <diagram id="yNJneGFGbLCoxV5wcimx" name="Page-1">
     <mxGraphModel dx="1148" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,13 @@
           <mxGeometry x="350" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NTKXwZcAzXdThbgoCDp0-2" value="TIMER, ADC, LCD1602, USART的初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="329" y="410" width="170" height="60" as="geometry" />
+          <mxGeometry x="325" y="410" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NTKXwZcAzXdThbgoCDp0-3" value="temp_c_flag==1?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="505" width="175" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NTKXwZcAzXdThbgoCDp0-4" value="连续五次获取ADC数据，并取平均值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="620" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
