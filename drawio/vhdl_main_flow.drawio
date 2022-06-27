@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-06-27T01:21:04.365Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36" version="20.0.1" etag="_mdTVgB6LXZWzFGhXupF" type="github"><diagram id="hY3zu3jhNzUkO5fhyY8t">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-27T01:27:20.613Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36" etag="qpLv8j0YAXaesCAqr7vd" version="20.0.1" type="github">
+  <diagram id="hY3zu3jhNzUkO5fhyY8t" name="Page-1">
+    <mxGraphModel dx="972" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cn7gCg0_rstc9ky34AdA-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cn7gCg0_rstc9ky34AdA-2" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="330" y="656" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cn7gCg0_rstc9ky34AdA-4" value="将原图片转换为数据流并写入verilog文件作为 jpegencode 的输入" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="300" y="270" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cn7gCg0_rstc9ky34AdA-5" value="输入原图片路径" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cn7gCg0_rstc9ky34AdA-6" value="jpeg 压缩" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="330" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cn7gCg0_rstc9ky34AdA-7" value="在输出数据流添加 jpeg 文件头并生成 jpeg 压缩文件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="300" y="520" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="cn7gCg0_rstc9ky34AdA-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="cn7gCg0_rstc9ky34AdA-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="110" as="sourcePoint" />
+            <mxPoint x="420" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cn7gCg0_rstc9ky34AdA-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.66" y="220" as="sourcePoint" />
+            <mxPoint x="389.66" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cn7gCg0_rstc9ky34AdA-10" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.66" y="360" as="sourcePoint" />
+            <mxPoint x="389.66" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cn7gCg0_rstc9ky34AdA-11" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.6600000000001" y="470.0000000000001" as="sourcePoint" />
+            <mxPoint x="389.6600000000001" y="520.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cn7gCg0_rstc9ky34AdA-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.6600000000001" y="605" as="sourcePoint" />
+            <mxPoint x="389.6600000000001" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
